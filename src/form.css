@@ -1,0 +1,41 @@
+
+body{display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: aliceblue;}
+.form{
+    padding: 20px 50px;
+    background: #fff;
+    border-radius: 9px;
+}        
+.form h1{
+    margin:0px 0px 20px 0px;
+}
+#root{ width: 30%;}
+.field{
+    display: grid;
+}
+label{
+    text-align: left;
+}
+input{
+    margin: 5px 0px;
+    padding: 10px;
+   border:1px solid #ddd;
+   border-radius: 4px;
+    
+}
+button{
+    border-radius: 8px;
+    padding: 9px 22px;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+}
+p{
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+    color: red;
+}
